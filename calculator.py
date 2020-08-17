@@ -1,8 +1,8 @@
 
 def main():
-    first_number = raw_input("Enter the first number: ")
-    second_number = raw_input("Enter the second number: ")
-    operation = raw_input("Choose an operation: ")
+    first_number = input("Enter the first number: ")
+    second_number = input("Enter the second number: ")
+    operation = input("Choose an operation: ")
 
     if first_number.isdigit() and second_number.isdigit():
         first_number = int(first_number)
